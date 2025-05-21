@@ -15,18 +15,21 @@ In this repo you will find the most covered topics on the exam and how I would t
 ## Storage
 * Storage Options
   * SQL - Standard Query Language
-    * _define here_
+    * _Used to communicate with and manage **relational databases**_
       * BigQuery
       * Cloud Spanner
       * Cloud SQL
   * NoSQL
-    * BigTable
-    * Firestore
-    * Cloud Datastore (optional, legacy)
+    * _No SQL dbs offer flexible schemas and don't rely on diverse data models, Unlike SQL there is no universal language for NoSQL storage types._
+      * BigTable
+      * Firestore
+      * Cloud Datastore (optional, legacy)
   * Object Storage
-    * Cloud Storage (Standard, Nearline, Coldline, Archive)
+    * _Stores data as an object, just like in programming this means you the data has attributes and methods assigned to it_
+      * Cloud Storage (Standard, Nearline, Coldline, Archive)
   * Block Storage
-    * Persistent Disks (HDD, SSD)
+    * _Breaks down data into fixed sized blocks, then gives each block an identifier. This is how the information is stored. NoSQL and SQL can still be used to retrieve data from block storage._
+      * Persistent Disks (HDD, SSD)
   * File Storage
     * Filestore
                 ========================
