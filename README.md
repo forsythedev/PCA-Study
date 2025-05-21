@@ -44,3 +44,21 @@ In this repo you will find the most covered topics on the exam and how I would t
   * Archive
     * +365 days
     * Cheapest, mainly for backup
+
+                ========================
+
+* Storage Sizes
+   * Smallest
+     * Firestore: Smallest in general, can storage even KBs
+     * Cloud SQL: A few GBs or less
+     * SSDs: As small as 10 GB
+     * Cloud Spanner: Can work small but not meant for small
+     * Big Query: Handles small data well
+   * Largest
+     * Tens of TB, up to 64 TB in some Google Cloud configurations
+     * SSDs: As large as 64 TB
+     * Cloud Spanner: Can store Petabytes of data, 1 PB is 1000 TBs
+     * BigQuery: Meant for petabyte to exabyte scales of data. Best for realtime access.
+     * Firestore: Scaling into petabytes gets challenging
+     * BigTable: Built for peta and exabytes of data. Handles realtime access very well.
+
