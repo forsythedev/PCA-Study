@@ -7,7 +7,8 @@ In this repo you will find the most covered topics on the exam and how I would t
 
 | Topic Name             | Description                                           | SubTopics              |
 | ---------------------------- | ----------------------------------------------------- | --------------------- |
-| [Storage](#storage) | Different methods and categories of storage in GCP     | Storage Options - Storage Types |
+| [Storage](#storage) | Different methods and categories of storage in GCP | [Storage Options](#storageoptions) - [Storage Types - Storage Sizes|
+| [Connections](#connections) | Different ways to connect on premise, cloud based, and other GCP applications to GCP | Connection Types -  |
 
 
 # Topics
@@ -61,4 +62,8 @@ In this repo you will find the most covered topics on the exam and how I would t
      * BigQuery: Meant for petabyte to exabyte scales of data. Best for realtime access.
      * Firestore: Scaling into petabytes gets challenging
      * BigTable: Built for peta and exabytes of data. Handles realtime access very well.
+    
+                ========================
+                ========================
 
+## Connections
