@@ -13,5 +13,31 @@ In this repo you will find the most covered topics on the exam and how I would t
 # Topics
 
 ## Storage
-- Storage Options
-- Storage Types
+* Storage Options
+  * SQL - Standard Query Language
+    * _define here_
+      * BigQuery
+      * Cloud Spanner
+      * Cloud SQL
+  * NoSQL
+    * BigTable
+    * Firestore
+    * Cloud Datastore (optional, legacy)
+  * Object Storage
+    * Cloud Storage (Standard, Nearline, Coldline, Archive)
+  * Block Storage
+    * Persistent Disks (HDD, SSD)
+  * File Storage
+    * Filestore
+                ========================
+* Storage Types
+  * Standard
+    * Easiest access
+    * Highest cost
+  * Nearline
+    * +30 days
+  * Coldline
+    * +90 days
+  * Archive
+    * +365 days
+    * Cheapest, mainly for backup
