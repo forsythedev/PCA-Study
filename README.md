@@ -7,7 +7,7 @@ In this repo you will find the most covered topics on the exam and how I would t
 
 | Topic Name             | Description                                           | SubTopics              |
 | ---------------------------- | ----------------------------------------------------- | --------------------- |
-| [Storage](#storage) | Different methods and categories of storage in GCP | [Storage Options](#-storage-options) - [Storage Types - Storage Sizes|
+| [Storage](#storage) | Different methods and categories of storage in GCP | [Storage Options](#storage-options) - Storage Types - Storage Sizes|
 | [Connections](#connections) | Different ways to connect on premise, cloud based, and other GCP applications to GCP | Connection Types -  |
 
 
