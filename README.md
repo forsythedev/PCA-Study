@@ -13,8 +13,8 @@ In this repo you will find the most covered topics on the exam and how I would t
 
 # Topics
 
-### Storage
-## * Storage Options
+## Storage
+### Storage Options
   * SQL - Standard Query Language
     * _Used to communicate with and manage **relational databases**_
       * BigQuery
