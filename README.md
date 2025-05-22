@@ -7,14 +7,14 @@ In this repo you will find the most covered topics on the exam and how I would t
 
 | Topic Name             | Description                                           | SubTopics              |
 | ---------------------------- | ----------------------------------------------------- | --------------------- |
-| [Storage](#storage) | Different methods and categories of storage in GCP | [Storage Options](#storageoptions) - [Storage Types - Storage Sizes|
+| [Storage](#storage) | Different methods and categories of storage in GCP | [Storage Options](#-storage-options) - [Storage Types - Storage Sizes|
 | [Connections](#connections) | Different ways to connect on premise, cloud based, and other GCP applications to GCP | Connection Types -  |
 
 
 # Topics
 
-## Storage
-* Storage Options
+### Storage
+## * Storage Options
   * SQL - Standard Query Language
     * _Used to communicate with and manage **relational databases**_
       * BigQuery
@@ -33,7 +33,7 @@ In this repo you will find the most covered topics on the exam and how I would t
       * Persistent Disks (HDD, SSD)
   * File Storage
     * Filestore
-                ========================
+======================== ======================== ======================== ======================== ========================
 * Storage Types
   * Standard
     * Easiest access
@@ -46,7 +46,7 @@ In this repo you will find the most covered topics on the exam and how I would t
     * +365 days
     * Cheapest, mainly for backup
 
-                ========================
+======================== ======================== ======================== ======================== ========================
 
 * Storage Sizes
    * Smallest
@@ -63,7 +63,9 @@ In this repo you will find the most covered topics on the exam and how I would t
      * Firestore: Scaling into petabytes gets challenging
      * BigTable: Built for peta and exabytes of data. Handles realtime access very well.
     
-                ========================
-                ========================
+======================== ========================  NEXT   ======================== ========================
+======================== ======================== SECTION ======================== ========================
 
 ## Connections
+* Connection Options
+ * 
