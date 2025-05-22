@@ -7,13 +7,14 @@ In this repo you will find the most covered topics on the exam and how I would t
 
 | Topic Name             | Description                                           | SubTopics              |
 | ---------------------------- | ----------------------------------------------------- | --------------------- |
-| [Storage](#storage) | Different methods and categories of storage in GCP | [Storage Options](#storage-options) - Storage Types - Storage Sizes|
+| [Storage](#storage) | Different methods and categories of storage in GCP | [Storage Options](#storage-options) - [Storage Types](#storage-types) - [Storage Sizes](#storage-sizes)|
 | [Connections](#connections) | Different ways to connect on premise, cloud based, and other GCP applications to GCP | Connection Types -  |
 
 
 # Topics
 
 ## Storage
+
 ### Storage Options
   * SQL - Standard Query Language
     * _Used to communicate with and manage **relational databases**_
@@ -34,7 +35,7 @@ In this repo you will find the most covered topics on the exam and how I would t
   * File Storage
     * Filestore
 ======================== ======================== ======================== ======================== ========================
-* Storage Types
+### Storage Types
   * Standard
     * Easiest access
     * Highest cost
@@ -48,7 +49,7 @@ In this repo you will find the most covered topics on the exam and how I would t
 
 ======================== ======================== ======================== ======================== ========================
 
-* Storage Sizes
+### Storage Sizes
    * Smallest
      * Firestore: Smallest in general, can storage even KBs
      * Cloud SQL: A few GBs or less
@@ -67,5 +68,17 @@ In this repo you will find the most covered topics on the exam and how I would t
 ======================== ======================== SECTION ======================== ========================
 
 ## Connections
-* Connection Options
- * 
+
+### Connection Types
+ * Interconnects
+   * Dedicated Interconnect
+     * _Physical Connection between on premise network and GCP_
+   * Partner Interconnect
+     * _Use a supported service providers, physical connection_
+   * Cross Cloud Interconnect
+     * _Using another cloud services physical connection_
+ * Peering
+ * Direct Peering
+   * _Using a supported ISP to connect to Google_
+ * Carrier Peering
+ * Public Internet
