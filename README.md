@@ -8,7 +8,7 @@ In this repo you will find the most covered topics on the exam and how I would t
 | Topic Name             | Description                                           | SubTopics              |
 | ---------------------------- | ----------------------------------------------------- | --------------------- |
 | [Storage](#storage) | Different methods and categories of storage in GCP | [Storage Options](#storage-options) - [Storage Types](#storage-types) - [Storage Sizes](#storage-sizes)|
-| [Connections](#connections) | Different ways to connect on premise, cloud based, and other GCP applications to GCP | Connection Types -  |
+| [Connections](#connections) | Different ways to connect on premise, cloud based, and other GCP applications to GCP | [Connection Types](#connection-types) -  |
 
 
 # Topics
@@ -78,7 +78,16 @@ In this repo you will find the most covered topics on the exam and how I would t
    * Cross Cloud Interconnect
      * _Using another cloud services physical connection_
  * Peering
- * Direct Peering
-   * _Using a supported ISP to connect to Google_
- * Carrier Peering
- * Public Internet
+   * VPC Peering
+     * _Private internal connection between two GCP VPCs_
+   * Direct Peering
+     * _Using a supported ISP to connect to Google_
+   * Carrier Peering
+     * _Used for accessing Google services, not VPCs. Connect with ISPs private network._
+   * Private Service Connect
+ * VPN
+   * Cloud VPN
+ * Other
+   * Public Internet
+   * Shared VPC
+   * Hybrid
