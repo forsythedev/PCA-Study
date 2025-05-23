@@ -8,7 +8,7 @@ In this repo you will find the most covered topics on the exam and how I would t
 | Topic Name             | Description                                           | SubTopics              |
 | ---------------------------- | ----------------------------------------------------- | --------------------- |
 | [Storage](#storage) | Different methods and categories of storage in GCP | [Storage Options](#storage-options) - [Storage Types](#storage-types) - [Storage Sizes](#storage-sizes)|
-| [Connections](#connections) | Different ways to connect on premise, cloud based, and other GCP applications to GCP | [Connection Types](#connection-types) -  |
+| [Connections](#connections) | Different ways to connect on premise, cloud based, and other GCP applications to GCP | [Connection Types](#connection-types) - [Connection Speeds](#fastest-to-slowest-connections) |
 
 
 # Topics
@@ -64,8 +64,8 @@ In this repo you will find the most covered topics on the exam and how I would t
      * Firestore: Scaling into petabytes gets challenging
      * BigTable: Built for peta and exabytes of data. Handles realtime access very well.
     
-======================== ========================  NEXT   ======================== ========================
-======================== ======================== SECTION ======================== ========================
+========================   NEXT  ========================
+======================== SECTION ========================
 
 ## Connections
 
@@ -81,13 +81,26 @@ In this repo you will find the most covered topics on the exam and how I would t
    * VPC Peering
      * _Private internal connection between two GCP VPCs_
    * Direct Peering
-     * _Using a supported ISP to connect to Google_
+     * _Where your network directly connects to and exchanges information to Google. You own _
    * Carrier Peering
-     * _Used for accessing Google services, not VPCs. Connect with ISPs private network._
+     * _This is when you connect to a telecommunications network that has already setup direct peering. Typically sed for accessing Google services, not VPCs. Connect with ISPs private network._
    * Private Service Connect
  * VPN
    * Cloud VPN
+     * _Secure connection over the public internet._
  * Other
    * Public Internet
    * Shared VPC
    * Hybrid
+  
+### Fastest to Slowest Connections
+* VPC Peering
+* Dedicated Interconnect
+* Cross Cloud Interconnect
+* Partner Interconnect
+* Direct Peering
+* Carrier Peering
+* Cloud VPN
+* Public Internet
+  
+  
